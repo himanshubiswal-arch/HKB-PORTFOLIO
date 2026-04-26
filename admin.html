@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Contact Submissions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="site-logo">
+            <div class="logo-mark">B</div>
+            <div class="logo-text">
+                <span class="logo-title">BISWAL AI LABS</span>
+                <span class="logo-subtitle">Innovating Intelligence</span>
+            </div>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="admin.html" class="active">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="admin-section">
+        <div class="section-header">
+            <h1>Contact Submissions</h1>
+            <p>Review incoming contact form messages and mark each submission as read after review. The newest messages appear first.</p>
+        </div>
+
+        <div id="admin-status" class="admin-status">Loading submissions...</div>
+        <div id="submissions-grid" class="submissions-grid"></div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <p class="footer-name">Himanshu Biswal</p>
+                <p class="footer-tagline">AI-enabled Finance & Virtual CFO for Growing MSMEs</p>
+            </div>
+            <div class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a href="admin.html">Admin</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/himanshu-biswal-finance" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/himanshubiswal" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-copy">© 2026 Himanshu Biswal. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

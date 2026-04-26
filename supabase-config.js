@@ -1,0 +1,3 @@
+// Supabase configuration constants
+const SUPABASE_URL = 'https://ekxxffeubzibofrpgznl.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVreHhmZmV1YnppYm9mcnBnem5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcxMTE5NjUsImV4cCI6MjA5MjY4Nzk2NX0.gd6TTP9qQj6Bk1Ub3TgCTG3UrUPuN1rzVKOFlgfTa5o';
